@@ -68,9 +68,83 @@
         </div>
       </div>
     </div>
-    <div id="about" class="bg-warning p-4"></div>
-    <div id="contact" class="bg-info p-4"></div>
-    <div id="footer" class="bg-primary p-4"></div>
+
+    <div id="about" class="bg-light p-3 p-md-5">
+      <div class="row">
+        <div class="col-lg">
+          <img src="../assets/icons/app.svg" alt="" height="120" class="m-4" />
+          <h5 class="ml-md-4 mr-md-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sequi
+            quod dolores quisquam ullam sunt, iure minus animi quis officia
+            necessitatibus temporibus nam quae obcaecati voluptatum ab maxime
+            dignissimos?
+          </h5>
+        </div>
+        <div class="col-lg">
+          <img
+            src="../assets/icons/folder.svg"
+            alt=""
+            height="120"
+            class="m-4"
+          />
+          <h5 class="ml-md-4 mr-md-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sequi
+            quod dolores quisquam ullam sunt, iure minus animi quis officia
+            necessitatibus temporibus nam quae obcaecati voluptatum ab maxime
+            dignissimos? Magni iure esse nobis tempora eum? Accusantium,
+            ducimus.
+          </h5>
+        </div>
+        <div class="col-lg">
+          <img
+            src="../assets/icons/smartphone.svg"
+            alt=""
+            height="120"
+            class="m-4"
+          />
+          <h5 class="ml-md-4 mr-md-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sequi
+            quod dolores quisquam ullam sunt, iure minus animi quis officia
+            necessitatibus temporibus nam quae obcaecati voluptatum ab maxime
+            dignissimos?
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class=" p-4">
+      <div class="row justify-content-center mt-3 mb-3">
+        <div class="col-lg-4">
+          <h2>Have Any Question?</h2>
+          <p>Contanct us by filling out the information below</p>
+
+          <form>
+            <div class="form-group text-left">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Enter your Email"
+              />
+              <textarea
+                class="form-control mt-3"
+                placeholder="Enter Your Message"
+                rows="5"
+              ></textarea>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="footer" class="p-4">
+      <footer class="text-light p-4">
+        <a href="https://www.youtube.com/" target="_blank" class="text-warning"
+          >Build This App |
+        </a>
+        <a href="#" class="text-warning">Privacy Policy</a>
+        <br />
+        <small>&copy; 2020, TravelTreasury.app</small>
+      </footer>
+    </div>
   </div>
 </template>
 
@@ -94,11 +168,19 @@ export default {
   -o-background-size: cover;
   background-size: cover;
 }
-
 #iphone-img {
   max-height: 80vh;
 }
 .app_store_img {
   max-height: 100px;
+}
+#about {
+  min-height: 40vh;
+}
+#contact {
+  background-color: #57aeaf;
+}
+#footer {
+  background-color: #252223;
 }
 </style>
